@@ -1,8 +1,8 @@
-# LSC Open Data Workshop #1: Hands-on excercises
+# GW Open Data Workshop #2: Hands-on exercises
 
-Material to support the first
-[LSC Open Data Workshop](https://losc.ligo.org/s/workshop1/),
-March 25-27, 2018
+Material to support the
+[GW Open Data Workshop #2](https://indico.in2p3.fr/e/odw2),
+April 8-10, 2019
 
 ## Software setup
 
