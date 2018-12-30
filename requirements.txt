@@ -2,3 +2,4 @@ lalsuite==6.49
 gwpy==0.12.2
 PyCBC==1.13.2
 gwosc==0.3.4
+bilby==0.3.3
