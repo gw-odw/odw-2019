@@ -16,7 +16,7 @@ You can open any notebook in the Google Co-labs.
 
 5) At the top of the notebook, add these 2 lines to install needed python modules
 
-`! wget -q https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt -O requirements.txt`
+`! wget -q https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt -O requirements.txt` <br/>
 `! pip install -q -r ./requirements.txt`
 
 
@@ -25,26 +25,28 @@ You can open any notebook in the Google Co-labs.
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/intermediate.png' width=20 /> Intermediate (Some software installation)
 
-1) Install miniconda: https://conda.io/en/latest/miniconda.html
+1) Install miniconda: https://conda.io/en/latest/miniconda.html <br/>
 You may need to restart your computer after installation
 
-2) Download or clone the git repo
+2) Download or clone the git repo <br/>
 `git clone https://github.com/gw-odw/odw-2019.git`
+
 OR
+
 Click: https://github.com/gw-odw/odw-2019/archive/master.zip
 
-2) Add the conda-forge channel
+2) Add the conda-forge channel <br/>
 `conda config --add channels conda-forge`
 
-3) Download the yml file for the enviornment you want (or, find it in the git repo from step 2)
+3) Download the yml file for the enviornment you want (or, find it in the git repo from step 2) <br/>
 `! wget https://raw.githubusercontent.com/gw-odw/odw-2019/master/enviornment-odw2019.yml`
 
-4) Create the enviornment
+4) Create the enviornment <br/>
 `conda env create -f environment-odw2019.yml`
 
-5) Activate the enviornment
+5) Activate the enviornment <br/>
 `conda activate odw2019`
 
-6) Start the jupyter notebook server
+6) Start the jupyter notebook server <br/>
 `jupyter notebook`
 
