@@ -1,0 +1,20 @@
+name: odw2019
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  # common build tools
+  - wget
+  # python tools
+  - flake8
+  - ipython
+  - jupyter
+  - pyflakes
+  - pylint
+  # lscsoft packages
+  - bilby=0.3.3
+  - gwosc=0.3.4
+  - gwpy=0.12.2
+  - lalsuite=6.49
+  - pycbc=1.13.3
+  - virtualenv
