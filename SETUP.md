@@ -2,7 +2,7 @@
 
 ## Option 1: Google co-labs
 
-<img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation)
+<img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
 
 You can open any notebook in the Google Co-labs.
 
@@ -23,7 +23,7 @@ You can open any notebook in the Google Co-labs.
 
 ## Option 2: Use conda
 
-<img src='https://www.wispresort.com/uploadedImages/Winter/intermediate.png' width=20 /> Intermediate (Some software installation)
+<img src='https://www.wispresort.com/uploadedImages/Winter/intermediate.png' width=20 /> Intermediate (Some software installation; Will not work on Windows PC)
 
 1) Install miniconda: https://conda.io/en/latest/miniconda.html <br/>
 You may need to restart your computer after installation
