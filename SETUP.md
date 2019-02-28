@@ -40,7 +40,7 @@ You may need to restart your computer after installation
 4) Create the enviornment <br/>
 `conda create --name odw2019 python=2.7`
 
-5) Install the software
+5) Install the software <br/>
 `conda install --name odw2019 --file requirements.txt` <br/>
 `conda install --name odw2019 -c conda-forge jupyter` <br/>
 
