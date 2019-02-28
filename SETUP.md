@@ -34,11 +34,16 @@ You may need to restart your computer after installation
 2) Add the conda-forge channel <br/>
 `conda config --add channels conda-forge`
 
-3) Download the yml file for the enviornment you want (or, find it in the git repo from step 2) <br/>
-`! wget https://raw.githubusercontent.com/gw-odw/odw-2019/master/enviornment-odw2019.yml`
+3) Download the requirements.txt file for the enviornment you want (or, find it in the git repo from step 2) <br/>
+`! wget https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt`
 
 4) Create the enviornment <br/>
-`conda env create -f environment-odw2019.yml`
+`conda create --name odw2019 python=2.7`
+
+5) Install the software
+`conda install --name odw2019 --file requirements.txt` <br/>
+`conda install --name odw2019 -c conda-forge jupyter` <br/>
+
 
 5) Activate the enviornment <br/>
 `conda activate odw2019`
