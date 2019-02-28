@@ -1,3 +1,4 @@
+jupyter
 lalsuite==6.49
 gwpy==0.12.2
 PyCBC==1.13.3
