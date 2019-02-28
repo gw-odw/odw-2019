@@ -28,12 +28,8 @@ You can open any notebook in the Google Co-labs.
 1) Install miniconda: https://conda.io/en/latest/miniconda.html <br/>
 You may need to restart your computer after installation
 
-2) Download or clone the git repo <br/>
+2) Download or clone the git repo: https://github.com/gw-odw/odw-2019/archive/master.zip <br/>
 `git clone https://github.com/gw-odw/odw-2019.git`
-
-OR
-
-Click: https://github.com/gw-odw/odw-2019/archive/master.zip
 
 2) Add the conda-forge channel <br/>
 `conda config --add channels conda-forge`
