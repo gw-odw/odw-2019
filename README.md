@@ -6,8 +6,7 @@ April 8-10, 2019
 
 ## Software setup
 
-Suggestions for accessing the required software are
-available in the [setup directory](./setup/README.md)
+Instructions for accessing the required software are available [here](./setup.md)
 
 ## Hands-on Session Program
 
