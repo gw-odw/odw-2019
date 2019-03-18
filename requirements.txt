@@ -1,6 +1,6 @@
 lalsuite==6.49
 gwpy==0.12.2
-PyCBC==1.13.3
+PyCBC==1.13.5
 gwosc==0.3.4
 bilby==0.4.0
 healpy==1.12.8
