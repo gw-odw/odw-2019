@@ -1,7 +1,7 @@
 # GW Open Data Workshop #2: Hands-on exercises
 
 Material to support the
-[GW Open Data Workshop #2](https://indico.in2p3.fr/e/odw2),
+[GW Open Data Workshop #2](https://indico.in2p3.fr/event/18313/),
 April 8-10, 2019
 
 ## Software setup
