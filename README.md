@@ -6,7 +6,7 @@ April 8-10, 2019
 
 ## Software setup
 
-Instructions for accessing the required software are available [here](./setup.md)
+**Instructions for accessing the required software are available [here](./setup.md)**
 
 ## Hands-on Session Program
 
