@@ -2,6 +2,7 @@
 
 Challenge activity for Open Data Workshop 2019: https://indico.in2p3.fr/event/18313/
 
+Data files are available at https://dcc.ligo.org/LIGO-T1900135
 
 ## Excercise 1
 
