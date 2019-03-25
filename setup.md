@@ -20,7 +20,7 @@ You can open any notebook in the Google Co-labs.
 `! pip install -q -r ./requirements.txt`
 
 
-## Option 2: Use conda
+## Option 2: You have a Linux or Apple/Mac computer -- Use conda
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/intermediate.png' width=20 /> Intermediate (Some software installation; Will not work on Windows PC)
 
@@ -53,7 +53,7 @@ You may need to restart your computer after installation.
 8) Start the jupyter notebook server <br/>
 `jupyter notebook`
 
-## Option 3: Install and run Linux on Windows 10
+## Option 3: You use Windows 10 -- Easy Linux install on Windows 10 with dedicated app
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/hard.png' width=20 /> Intermediate (For Windows 10)
 
