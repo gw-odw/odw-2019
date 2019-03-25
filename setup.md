@@ -14,7 +14,7 @@ You can open any notebook in the Google Co-labs.
 
 4) Double click the notebook of your choice
 
-5) At the top of the notebook, there are 2 lines to install the needed python modules
+5) At the top of the notebook, there are 2 lines to install the needed Python modules
 
 `! wget -q https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt -O requirements.txt` <br/>
 `! pip install -q -r ./requirements.txt`
