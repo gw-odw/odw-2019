@@ -1,10 +1,10 @@
-# odw-challenge
+# ODW2 CHALLENGE
 
-Challenge activity for Open Data Workshop 2019: https://indico.in2p3.fr/event/gw-odw2
+Challenge activity for the Open Data Workshop 2019: https://indico.in2p3.fr/event/gw-odw2
 
 Data files are available at https://dcc.ligo.org/LIGO-T1900135/public
 
-## Exercise 1 (1 point)
+## Exercise 1 (1 point) -- Novice
 
 Identify a loud binary black hole signal in white, Gaussian noise.
 
@@ -20,7 +20,7 @@ Identify a loud binary black hole signal in white, Gaussian noise.
 4. What is the time of the signal?
 
 
-## Exercise 2 (2 points)
+## Exercise 2 (2 points) -- Rookie
 
 Signal in colored, Gaussian noise.
 
@@ -40,28 +40,28 @@ Use axes ranging from 20 Hz up to the Nyquist frequency.
 5. What is the matched filter SNR of the signal?
 
 
-### Exercise 3 (4 points)
+### Exercise 3 (4 points) -- Intermediate
 
-* Use the data file ./challenge3.gwf" with channel "H1:CHALLENGE3"
+* Use the data file "challenge3.gwf" with channel "H1:CHALLENGE3"
 * These are real LIGO data from O2, though we've adjusted the time labels and 
   added some simulated signals.
-* The data contain a loud simulated singal with m1 = m2 = 10 solar masses.
+* The data contain a loud simulated signal with m1 = m2 = 10 solar masses.
 
-1. What is the merger time of this 10/10 signal?
+1. What is the merger time of this signal?
 
-2. What is the matched-filter SNR of this 10/10  signal?
+2. What is the matched-filter SNR of this signal?
 
 
-### Exercise 4 (8 points)
+### Exercise 4 (8 points) -- Advanced
 
-* Use the data file ./challenge3.gwf" with channels "H1:CHALLENGE3" and "L1:CHALLENGE3".
+* Use the data file "challenge3.gwf" with channels "H1:CHALLENGE3" and "L1:CHALLENGE3".
 * These are real LIGO data from O2, though we've adjusted the time labels and 
   added some simulated signals.
 * Any simulated signals have been added to both the H1 and L1 data
 * All simulated signals have 0 spin and m1=m2, with m1 somewhere in the range 10-50 solar masses
 
 1. Identify as many signals as you can.  Watch out!  These are real data, and so glitches may be
-present.  Any false alarms will count against your score.  For each signal you find, list:
+present.  Any false alarms will count -1 point against your score.  For each signal you find, list:
 
  * The merger time
  * The SNR
@@ -69,7 +69,6 @@ present.  Any false alarms will count against your score.  For each signal you f
 
 2. Identify as many glitches as you can.  Make a spectrogram of each one.
 
-3. For each simulated BBH you found, use Bilby to compute a
-posterior distribution for the mass.  You can fix the spin and sky
-location parameters to make this run faster.
+3. For each simulated BBH you found, use Bilby to compute a posterior distribution for 
+   the mass. You can fix the spin and sky location parameters to make this run faster.
 
