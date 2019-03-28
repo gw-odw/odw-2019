@@ -32,5 +32,5 @@ April 8-10, 2019
 
 ## Day 3
 
-[Challenge](./challenge)
+[Challenge](./Challenge)
 
