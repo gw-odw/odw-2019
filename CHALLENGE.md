@@ -1,10 +1,10 @@
 # odw-challenge
 
-Challenge activity for Open Data Workshop 2019: https://indico.in2p3.fr/event/18313/
+Challenge activity for Open Data Workshop 2019: https://indico.in2p3.fr/event/gw-odw2
 
 Data files are available at https://dcc.ligo.org/LIGO-T1900135/public
 
-## Excercise 1
+## Exercise 1 (1 point)
 
 Identify a loud binary black hole signal in white, Gaussian noise.
 
@@ -20,13 +20,12 @@ Identify a loud binary black hole signal in white, Gaussian noise.
 4. What is the time of the signal?
 
 
-## Excercise 2
+## Exercise 2 (2 points)
 
 Signal in colored, Gaussian noise.
 
 * Use the data file "challenge2.gwf", with channel name "H1:CHALLENGE2"
 * The data contain a BBH signal with m1=m2=30 solar masses, spin = 0.
-
 
 1. What is the time of the merger? (Hint: a plot of the q-transform could help)
 
@@ -41,7 +40,7 @@ Use axes ranging from 20 Hz up to the Nyquist frequency.
 5. What is the matched filter SNR of the signal?
 
 
-### Excercise 3
+### Exercise 3 (4 points)
 
 * Use the data file ./challenge3.gwf" with channel "H1:CHALLENGE3"
 * These are real LIGO data from O2, though we've adjusted the time labels and 
@@ -53,7 +52,7 @@ Use axes ranging from 20 Hz up to the Nyquist frequency.
 2. What is the matched-filter SNR of this 10/10  signal?
 
 
-### Excercise 4
+### Exercise 4 (8 points)
 
 * Use the data file ./challenge3.gwf" with channels "H1:CHALLENGE3" and "L1:CHALLENGE3".
 * These are real LIGO data from O2, though we've adjusted the time labels and 
