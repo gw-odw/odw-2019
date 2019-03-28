@@ -1,5 +1,7 @@
 # Software Setup
 
+All tutorials are Python-based Jupyter notebooks. The instructions below explain how to install the necessary Python packages depending on the type of platform. The tutorial 2.6 on gravitational-wave skymap also requires the installation of the Aladin GUI ; installation instructions are provided at the bottom of this page for all platforms.
+
 ## Option 1: Google co-labs
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
