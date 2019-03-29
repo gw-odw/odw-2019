@@ -13,11 +13,11 @@ Identify a loud binary black hole signal in white, Gaussian noise.
 
 1. Load the data into memory.  What are the sampling rate and duration of the data?
 
-2. Plot the data as a time-domain signal. 
+2. Plot the data in the time-domain. 
 
 3. Plot a spectrogram (or q-transform) of the data, and try to identify the signal.
 
-4. What is the time of the signal?
+4. What is the time of the merger?
 
 
 ## Exercise 2 (2 points) -- Rookie
