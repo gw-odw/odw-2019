@@ -35,8 +35,8 @@ Signal in colored, Gaussian noise.
 
 1. What is the approximative time of the merger? (Hint: a plot of the q-transform could help)
 
-2. Generate a time-domain template waveform using approximate "SEOBNRv4_opt".  
-   Plot this waveform.
+2. Generate a time-domain template waveform using approximate "SEOBNRv4_opt".
+   with the same parameters as above.  Plot this waveform.
 
 3. Calculate a PSD of the data, and plot this on a log-log scale.
    Use axes ranging from 20 Hz up to the Nyquist frequency.
