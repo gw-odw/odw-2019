@@ -4,7 +4,13 @@ Challenge activity for the Open Data Workshop 2019: https://indico.in2p3.fr/even
 
 Data files are available at https://dcc.ligo.org/LIGO-T1900135/public
 
-## Exercise 1 (1 point) -- Novice
+Challenges are ordered by difficulty. You are rewarded a number of
+points that scales with the difficulty of the challenge. You can try
+to solve the challenge in the order you like. Starting with the most
+difficult is risky but you get a big reward if you succeed by the end
+of the session! Good luck to all!
+
+## Challenge 1 (1 point) -- Novice
 
 Identify a loud binary black hole signal in white, Gaussian noise.
 
@@ -20,27 +26,27 @@ Identify a loud binary black hole signal in white, Gaussian noise.
 4. What is the time of the merger?
 
 
-## Exercise 2 (2 points) -- Rookie
+## Challenge 2 (2 points) -- Rookie
 
 Signal in colored, Gaussian noise.
 
 * Use the data file "challenge2.gwf", with channel name "H1:CHALLENGE2"
 * The data contain a BBH signal with m1=m2=30 solar masses, spin = 0.
 
-1. What is the time of the merger? (Hint: a plot of the q-transform could help)
+1. What is the approximative time of the merger? (Hint: a plot of the q-transform could help)
 
-2. Generate and a time-domain template waveform using approximate "SEOBNRv4_opt".  Plot this
-waveform.
+2. Generate a time-domain template waveform using approximate "SEOBNRv4_opt".  
+   Plot this waveform.
 
 3. Calculate a PSD of the data, and plot this on a log-log scale.
-Use axes ranging from 20 Hz up to the Nyquist frequency.
+   Use axes ranging from 20 Hz up to the Nyquist frequency.
 
 4. Use the template waveform and PSD to calculate the SNR time series.  Plot the SNR time-series.
 
 5. What is the matched filter SNR of the signal?
 
 
-### Exercise 3 (4 points) -- Intermediate
+### Challenge 3 (4 points) -- Intermediate
 
 * Use the data file "challenge3.gwf" with channel "H1:CHALLENGE3"
 * These are real LIGO data from O2, though we've adjusted the time labels and 
@@ -52,7 +58,7 @@ Use axes ranging from 20 Hz up to the Nyquist frequency.
 2. What is the matched-filter SNR of this signal?
 
 
-### Exercise 4 (8 points) -- Advanced
+### Challenge 4 (8 points) -- Advanced
 
 * Use the data file "challenge3.gwf" with channels "H1:CHALLENGE3" and "L1:CHALLENGE3".
 * These are real LIGO data from O2, though we've adjusted the time labels and 
@@ -61,7 +67,8 @@ Use axes ranging from 20 Hz up to the Nyquist frequency.
 * All simulated signals have 0 spin and m1=m2, with m1 somewhere in the range 10-50 solar masses
 
 1. Identify as many signals as you can.  Watch out!  These are real data, and so glitches may be
-present.  Any false alarms will count -1 point against your score.  For each signal you find, list:
+present.  Any correct detection is +1 point but any false alarms will count -1 point 
+against your score.  For each signal you find, list:
 
  * The merger time
  * The SNR
