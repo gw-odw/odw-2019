@@ -5,3 +5,4 @@ gwosc==0.4.3
 bilby==0.4.1
 healpy==1.12.8
 astropy==2.0.12
+scipy==1.2.1
