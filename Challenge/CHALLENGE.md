@@ -81,3 +81,18 @@ against your score.  For each signal you find, list:
 3. For each simulated BBH you found, use Bilby to compute a posterior distribution for 
    the mass. You can fix the spin and sky location parameters to make this run faster.
 
+### Useful notes
+
+Processing data from a local file with Bilby
+
+```
+sampling_rate=2048 #needs to be high enough for the signals found in steps above
+duration=8 #needs to be long enough for the signals found in steps above
+start_time=100 #needs to be set so that the segment defined by [start_time,start_time+duration] contains the signal
+
+interferometers = bilby.gw.detector.InterferometerList([])
+for ifo_name in ['H1','L1']:
+    ifo=bilby.gw.detector.get_empty_interferometer(ifo_name)
+    ifo.set_strain_data_from_frame_file('challenge3.gwf',sampling_rate, duration, start_time=start_time ,channel=ifo_name+':CHALLENGE3')
+    interferometers.append(ifo)
+```
