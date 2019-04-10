@@ -2,6 +2,8 @@
 
 Challenge activity for the Open Data Workshop 2019: https://indico.in2p3.fr/event/gw-odw2
 
+Link to the Challenge spreadsheet: https://bit.ly/2WRxjay   – Tab « Challenge »
+
 Data files are available at https://dcc.ligo.org/LIGO-T1900135/public
 
 Challenges are ordered by difficulty. You are rewarded a number of
