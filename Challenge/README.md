@@ -1,9 +1,9 @@
 
-The challenge description is:
+# Challenge
 
-https://github.com/gw-odw/odw-2019/tree/master/Challenge
+Read the description here: https://github.com/gw-odw/odw-2019/tree/master/Challenge
 
-## Solution of the challenge
+# Solution of the challenge
 
 The file results.md.gpg contains the correct answers to all
 challenges. This file is encrypted with a password that you
