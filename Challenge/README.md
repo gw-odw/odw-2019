@@ -1,7 +1,7 @@
 
 # Challenge
 
-Read the description here: https://github.com/gw-odw/odw-2019/tree/master/Challenge
+Read the description here: https://github.com/gw-odw/odw-2019/tree/master/Challenge/CHALLENGE.md
 
 # Solution of the challenge
 
