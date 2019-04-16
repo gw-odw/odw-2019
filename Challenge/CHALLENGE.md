@@ -1,4 +1,4 @@
-# ODW2 CHALLENGE
+# CHALLENGE GW-ODW #2 
 
 Challenge activity for the Open Data Workshop 2019: https://indico.in2p3.fr/event/gw-odw2
 
