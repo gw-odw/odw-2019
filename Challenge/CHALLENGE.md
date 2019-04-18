@@ -79,7 +79,7 @@ against your score.  For each signal you find, list:
 2. Identify as many glitches as you can.  Make a spectrogram of each one.
 
 3. For each simulated BBH you found, use Bilby to compute a posterior distribution for 
-   the mass. You can fix the spin and sky location parameters to make this run faster.
+   the mass. You can fix the spin and sky location parameters to make this run faster. As long as you measure parameters of the signal phase such as the total mass, you can set the sky location arbitrarily.
 
 ### Useful notes
 
