@@ -7,3 +7,4 @@ Click links below to open tutorials in Google Colab
 * [Tuto 1.3](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_1/Tuto%201.3%20Q-transforms%20with%20GWpy.ipynb)
 * [Tuto 1.4](https://colab.research.google.com/github/gw-odw/odw-2019/blob/master/Day_1/Tuto%201.4%20Generating%20waveforms.ipynb)
 
+[Link to the workshop presentations on Day 1](https://indico.in2p3.fr/event/18313/timetable/#20190408)
