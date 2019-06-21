@@ -1,4 +1,4 @@
-numpy==1.15.4
+numpy==1.15.2
 lalsuite==6.49
 gwpy==0.14.2
 PyCBC==1.13.5
