@@ -18,7 +18,7 @@ You can open any notebook in the Google Co-labs.
 
 4) Double click the notebook of your choice
 
-5) Select 'Runtime>Change Runtime Type' on the toolbar and ensure that 'Runtime type' is set to Python2
+5) Select 'Runtime>Change Runtime Type' on the toolbar and ensure that 'Runtime type' is set to Python 2
 
 6) At the top of the notebook, there are 2 lines to install the needed Python modules
 
