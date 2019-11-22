@@ -6,6 +6,8 @@ All tutorials are Python-based Jupyter notebooks. The instructions below explain
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
 
+Note: this option will no longer be available starting in January 2020 
+
 You can open any notebook in the Google Co-labs.
 
 1) Visit https://colab.research.google.com
@@ -16,7 +18,9 @@ You can open any notebook in the Google Co-labs.
 
 4) Double click the notebook of your choice
 
-5) At the top of the notebook, there are 2 lines to install the needed Python modules
+5) Select 'Runtime>Change Runtime Type' on the toolbar and ensure that 'Runtime type' is set to Python2
+
+6) At the top of the notebook, there are 2 lines to install the needed Python modules
 
 `! wget -q https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt -O requirements.txt` <br/>
 `! pip install -q -r ./requirements.txt`
