@@ -19,15 +19,14 @@
 </style>
   <body>
 
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50341146-3"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50341146-2', 'ligo.org');
-  ga('send', 'pageview');
-
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-50341146-3');
     </script>
     
     <!-- Fixed navbar -->
@@ -169,30 +168,67 @@ hands-on programming exercises.
 	    <hr/>
 	    <h2 id='videos'>Lecture videos</h2>
 
-	    Jo van den Brand, A primer on LIGO and Virgo gravitational wave detectors [<a href='https://dcc.ligo.org/LIGO-G1900761/public'>slides</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-<br/>
+		  <h3>Jo van den Brand, A primer on LIGO and Virgo gravitational wave detectors</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900761/public'>Link to slides</a>] <br/>
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/1_Jo_van_den_Brand.png'> 
+			<source src="./video/1_Jo_van_den_Brand.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
+		  
 
-	    Alan Weinstein, LIGO-Virgo data, data quality, calibration [<a href='https://dcc.ligo.org/LIGO-G1900704/public'>slides</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/>
+		  <h3>Alan Weinstein, LIGO-Virgo data, data quality, calibration</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900704/public'>Link to slides</a>] <br/>
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/2_Alan_Weinstein.png'> 
+			<source src="./video/2_Alan_Weinstein.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
 
-	    Agata Trovato, Accessing and using GW open data, calibration [<a href='https://dcc.ligo.org/LIGO-G1900727/public'>slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_1'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/>
+		  <h3>Agata Trovato, Accessing and using GW open data, calibration</h3>
+		  [<a href='https://dcc.ligo.org/LIGO-G1900727/public'>Link to slides</a>, <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_1'>tutorial</a>]<br/>
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/3_Agata_Trovato.png'> 
+			<source src="./video/3_Agata_Trovato.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
 
-	    Duncan McLeod, Introduction to GWpy [<a href='https://dcc.ligo.org/LIGO-G1900728/public'>slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_1'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/> 
+		  <h3>Duncan McLeod, Introduction to GWpy</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900728/public'>Link to slides</a>, <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_1'>tutorial</a>]<br/> 
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/4_Duncan_MacLeod.png'> 
+			<source src="./video/4_Duncan_MacLeod.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
 
-	    Ed Porter, Basics of compact binary searches [<a href='https://dcc.ligo.org/LIGO-G1900628/public'>slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/> 
-
-	    Ian Harry, Searching for compact binary mergers [<a href='https://dcc.ligo.org/LIGO-G1900725/public'>slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/> 
-
-	    Vivien Raymond, Astrophysical parameter estimation for compact binary mergers [<a href='https://dcc.ligo.org/LIGO-G1900659/public'>slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/> 
-	    
-	    Sarah Antier, Sky localization and gravitational-wave alerts [<a href='https://dcc.ligo.org/LIGO-G1900630/public'>slides</a>, <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>] <iframe width="560" height="315" src="https://youtu.be/DAmr47t3z10" frameborder="0"></iframe>   
-	    <br/> 
-	    	    
+		  <h3>Ed Porter, Basics of compact binary searches</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900628/public'>Link to slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>]<br/> 
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/5_Ed_Porter.png'> 
+			<source src="./video/5_Ed_Porter.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
+		  
+		  <h3>Ian Harry, Searching for compact binary mergers</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900725/public'>Link to slides</a>,  <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>]<br/> 
+		  <div class="embed-responsive embed-responsive-16by9">
+	      		<video class="embed-responsive-item" controls width="50%" height="50%" poster='images/6_Ian_Harry.png'> 
+			<source src="./video/6_Ian_Harry.mp4" type="video/mp4">
+	   		</video>
+	    	  </div>
+		  
+		  <h3>Vivien Raymond, Astrophysical parameter estimation for compact binary mergers</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900659/public'>Link to slides</a>, <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>]<br/>
+		  <div class="embed-responsive embed-responsive-16by9">			
+		    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_NaAKeVJe1s" allowfullscreen></iframe>
+	    	  </div>
+		  
+		  <h3>Sarah Antier, Sky localization and gravitational-wave alerts</h3> 
+		  [<a href='https://dcc.ligo.org/LIGO-G1900630/public'>Link to slides</a>, <a href='https://github.com/gw-odw/odw-2019/tree/master/Day_2'>tutorial</a>] <br/>
+		  <div class="embed-responsive embed-responsive-16by9">
+		    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dBRc6zFrjF8" allowfullscreen></iframe>
+	      	  </div>
+		  
   <br/><br/>
   Contact: losc@ligo.org
   <br/><br/><br/><br/>

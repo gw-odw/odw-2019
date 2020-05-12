@@ -21,8 +21,14 @@ You can open any notebook in the Google Co-labs.
 `! wget -q https://raw.githubusercontent.com/gw-odw/odw-2019/master/requirements.txt -O requirements.txt` <br/>
 `! pip install -q -r ./requirements.txt`
 
+## Option 2: Run in mybinder
 
-## Option 2: You have a Linux or Apple/Mac computer -- Use conda
+<img src='https://www.wispresort.com/uploadedImages/Winter/easy.png' width=20 /> Easy (No software installation; Works for any OS)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gw-odw/odw-2019/master)
+
+
+## Option 3: You have a Linux or Apple/Mac computer -- Use conda
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/intermediate.png' width=20 /> Intermediate (Some software installation; Will not work on Windows PC)
 
@@ -55,7 +61,7 @@ You may need to restart your computer after installation.
 8) Start the jupyter notebook server <br/>
 `jupyter notebook`
 
-## Option 3: You use Windows 10 -- Easy Linux install on Windows 10 with dedicated app
+## Option 4: You use Windows 10 -- Easy Linux install on Windows 10 with dedicated app
 
 <img src='https://www.wispresort.com/uploadedImages/Winter/hard.png' width=20 /> Intermediate (For Windows 10)
 
